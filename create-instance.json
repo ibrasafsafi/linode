@@ -1,0 +1,33 @@
+{
+    "backups_enabled": true,
+    "swap_size": 512,
+    "image": "linode/debian10",
+    "root_pass": "aComplexP@ssword",
+    "stackscript_id": 10079,
+    "stackscript_data": {
+        "gh_username": "linode"
+    },
+    "interfaces": [
+        {
+            "purpose": "public",
+            "label": "",
+            "ipam_address": ""
+        },
+        {
+            "purpose": "vlan",
+            "label": "vlan-1",
+            "ipam_address": "10.0.0.1/24"
+        }
+    ],
+    "authorized_keys": [
+        "ssh-rsa AAAA_valid_public_ssh_key_123456785== user@their-computer"
+    ],
+    "authorized_users": [
+        "adsdev"
+    ],
+    "booted": true,
+    "label": "linode123",
+    "type": "g6-standard-2",
+    "region": "ca-central",
+    "group": "Linode-Group"
+}
